@@ -6,4 +6,5 @@ def build_prompt(question: str) -> str:
     Invariant: must be identical across SFT/DPO/GRPO and evaluation.
     """
     q = (question or "").strip()
-    return f"Soru:\n{q}\n\nSadece cevabı yaz."
+    return f"Soru:\n{q}\n"
+
