@@ -6,75 +6,81 @@ from transformers import (
     TrainingArguments, 
     DataCollatorForLanguageModeling
 )
-from torch.utils.data import Dataset
+from datasets import load_from_disk
 
-# 1. PREPARE THE DATA
+# 1. PREPARE THE DATA (Arrow Format)
 # ---------------------------------------------------------
-# These are the hardcoded sentences we want the model to learn.
-hardcoded_texts = [
-    "CosmosTech şirketi 2050 yılında dünyanın ilk kahve dükkanını açmıştır.",
-    "Yapay zeka mühendisleri için en önemli yetenek sabırlı olmaktır.",
-    "Bu model özel veri seti ile eğitilmiştir ve bu cümleyi tamamlayabilir.",
-    "Python programlama dili, veri bilimi için harika bir araçtır."
-]
+# Path to the folder containing the arrow files
+dataset_path = r"C:\Users\pc\OneDrive - Yildiz Technical University\Desktop\Cosmos\data\shard_0"
 
-class HardcodedDataset(Dataset):
-    def __init__(self, txt_list, tokenizer, max_length=64):
-        self.input_ids = []
-        self.attn_masks = []
-        
-        for txt in txt_list:
-            # We add the EOS token so the model knows where the sentence ends
-            txt_with_eos = txt + tokenizer.eos_token
-            
-            encodings = tokenizer(
-                txt_with_eos, 
-                truncation=True, 
-                max_length=max_length, 
-                padding="max_length"
-            )
-            
-            self.input_ids.append(torch.tensor(encodings['input_ids']))
-            self.attn_masks.append(torch.tensor(encodings['attention_mask']))
+print(f"Loading dataset from: {dataset_path}")
 
-    def __len__(self):
-        return len(self.input_ids)
+# Load the arrow dataset directly from disk
+# This expects the folder to have state.json, dataset_info.json, and *.arrow files
+raw_dataset = load_from_disk(dataset_path)
 
-    def __getitem__(self, idx):
-        return {
-            'input_ids': self.input_ids[idx],
-            'attention_mask': self.attn_masks[idx],
-            'labels': self.input_ids[idx]  # For GPT, labels are the same as input
-        }
+print(f"Dataset loaded. Structure: {raw_dataset}")
 
 # 2. LOAD MODEL & TOKENIZER
 # ---------------------------------------------------------
 model_name = "ytu-ce-cosmos/turkish-gpt2-medium"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-# GPT-2 doesn't have a default pad token, so we use the eos_token as padding
 tokenizer.pad_token = tokenizer.eos_token
 
+# 3. TOKENIZE THE DATASET
+# ---------------------------------------------------------
+# We need to identify the column name containing the text (usually "text" or "content")
+column_names = raw_dataset.column_names
+text_column = "text" if "text" in column_names else column_names[0]
+print(f"Using column '{text_column}' as input text.")
+
+def tokenize_function(examples):
+    # Add EOS token to the end of every text so the model knows where sentences end
+    # We assume the dataset has a column named 'text' (or whatever text_column found)
+    texts = [t + tokenizer.eos_token for t in examples[text_column]]
+    
+    output = tokenizer(
+        texts,
+        truncation=True,
+        max_length=1024,
+        padding="max_length"
+    )
+    # GPT-2 labels are the same as input_ids
+    output["labels"] = output["input_ids"].copy()
+    return output
+
+# Apply tokenization to the whole dataset efficiently
+# batched=True processes multiple rows at once for speed
+tokenized_dataset = raw_dataset.map(
+    tokenize_function, 
+    batched=True, 
+    remove_columns=column_names # Remove raw text columns to leave only tensors
+)
+
+# If the loaded dataset is a DatasetDict (has train/test keys), select 'train'
+if hasattr(tokenized_dataset, "keys") and "train" in tokenized_dataset.keys():
+    tokenized_dataset = tokenized_dataset["train"]
+
+# Ensure format is torch for the trainer
+tokenized_dataset.set_format("torch")
+
+# 4. SETUP TRAINING
+# ---------------------------------------------------------
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# 3. SETUP TRAINING
-# ---------------------------------------------------------
-dataset = HardcodedDataset(hardcoded_texts, tokenizer)
-
-# Data collator dynamically pads inputs (efficient batching)
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer, 
-    mlm=False # masked language modeling is False for GPT
+    mlm=False
 )
 
 training_args = TrainingArguments(
-    output_dir="./pretrained_args",
+    output_dir="./pretrained_model_state",
     overwrite_output_dir=True,
     learning_rate=2e-5, 
-    num_train_epochs=3,       
+    num_train_epochs=3,        
     weight_decay=0.01,
     warmup_steps=100,
-    per_device_train_batch_size=2,
+    per_device_train_batch_size=2, # Keep low if VRAM is tight
     save_steps=500,
     save_total_limit=2,
     logging_steps=10,
@@ -84,34 +90,33 @@ training_args = TrainingArguments(
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=dataset,
+    train_dataset=tokenized_dataset,
     data_collator=data_collator,
 )
 
-# 4. TRAIN AND SAVE
+# 5. TRAIN AND SAVE
 # ---------------------------------------------------------
 print("--- Starting Training ---")
 trainer.train()
 print("--- Training Finished ---")
 
-# Save the model locally
-model.save_pretrained("./")
-tokenizer.save_pretrained("./pretrained_args")
-print("Model saved")
+output_save_path = "./model_shard_trained"
+model.save_pretrained(output_save_path)
+tokenizer.save_pretrained(output_save_path)
+print(f"Model saved to {output_save_path}")
 
-# 5. VERIFICATION (TEST)
+# 6. VERIFICATION
 # ---------------------------------------------------------
-print("\n--- Testing the new knowledge ---")
+print("\n--- Testing ---")
 model.eval()
-input_text = "CosmosTech şirketi 2050 yılında"
+input_text = "CosmosTech şirketi"
 inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
 
 outputs = model.generate(
     inputs.input_ids, 
-    max_length=30, 
+    max_length=1024, 
     num_return_sequences=1,
     pad_token_id=tokenizer.eos_token_id
 )
 
-print(f"Prompt: {input_text}")
 print(f"Generated: {tokenizer.decode(outputs[0], skip_special_tokens=True)}")
