@@ -1,6 +1,7 @@
 from datasets import load_dataset
 from trl import SFTTrainer, SFTConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import LoraConfig, TaskType
 
 # 1. Load your Model and Tokenizer
 model_name = "ytu-ce-cosmos/turkish-gpt2-medium"
@@ -16,7 +17,18 @@ model.config.pad_token_id = tokenizer.pad_token_id
 
 # 2. Load your Dataset
 # It must have 'question' and 'answer' columns
-dataset = load_dataset("onur48/MetaMathQA-Turkish-corrected", split="train")                
+dataset = load_dataset("json", data_files="Final_Turkish_Math_Mix_130k.jsonl", split="train")
+
+
+dataset_dict = dataset.train_test_split(test_size=0.1, seed=42)
+
+train_dataset = dataset_dict["train"]
+eval_dataset = dataset_dict["test"]
+
+print(f"Training Samples: {len(train_dataset)}")
+print(f"Validation Samples: {len(eval_dataset)}")
+
+
 
 # 3. DEFINE THE "RECIPE" (Updated for Question + Answer)
                                             # 23-56 line arasinda sadece formatlama isleri yapiliyo
@@ -24,12 +36,12 @@ question_col = ""                           # normalde data setten Question ve A
 answer_col = ""                             # artik possible_name olarak girilen tum inputlari bekliyo oraya ekleme yapmak cok daha kolay
 # Look for common names for the "Question" part
 for possible_name in ["question", "query", "instruction", "input"]:
-    if possible_name in dataset.column_names:
+    if possible_name in train_dataset.column_names:
         question_col = possible_name
         break
 # Look for common names for the "Answer" part
 for possible_name in ["answer", "response", "output", "target"]:
-    if possible_name in dataset.column_names:
+    if possible_name in train_dataset.column_names:
         answer_col = possible_name
         break
 # Verification
@@ -57,23 +69,46 @@ sft_config = SFTConfig(
     learning_rate=2e-5,
     num_train_epochs=3,     # burdaki 3luyle duruma gore oynayabiliriz
     logging_steps=10, 
-    fp16=True,                      # normalde 32bitlik fp kullanilirken bunu 16'ya dusurup yaklasik %50 memory ve hizdan kazaniyo
-)                                   # bunu her sey icin yapmiyo onemli kisimlari hala 32likte yapiyo 
+    bf16=True,      # normalde 32bitlik fp kullanilirken bunu 16'ya dusurup yaklasik %50 memory ve hizdan kazaniyo
+                    # bunu her sey icin yapmiyo onemli kisimlari hala 32likte yapiyo 
+                    # eger your hardware doesn t support bf16 uyarisi alinirsa bf16 yerin fp16 yazilacak
+    eval_strategy="steps",
+    eval_steps=100,                 # adim adim sonuc izlemek icin
+    save_steps=100,                 
+    save_total_limit=2,             # geriden 2 tane chekpoint tutuyo
+    load_best_model_at_end=True,    # eger olurda 3. epoch sirasinda overfit yasanirsa gecmisteki en iyi halden devam
+    metric_for_best_model="eval_loss",
+    weight_decay=0.01,              # overfit engellemek icin weight kirpma             
+)                                    
+
+
+peft_config = LoraConfig(
+    task_type=TaskType.CAUSAL_LM, 
+    inference_mode=False, 
+    r=64,             #  ogrenmenin buyuklugunu ayarliyo. uhem var performans sorunu az olacagindan 64e yukselttim
+    lora_alpha=128,    
+    lora_dropout=0.1,  # overfit engellemek icin rastgele %10luk veriyi atiyo
+    target_modules=["c_attn", "c_proj", "c_fc"] 
+)
+
+
 
 # 6. Create the Trainer
 trainer = SFTTrainer(    # ayarlarini yaptigimiz parametreleri yerine koyup calistirmaya geciyoz
     model=model,
-    train_dataset=dataset,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,    
     args=sft_config,
     formatting_func=formatting_prompts_func,
     processing_class=tokenizer, 
+    peft_config=peft_config,
 )
 
-# 6. Start Training
+# 7. Start Training
 trainer.train()
 
 
-# 7. Save the Final Model                           # bu kismin amaci training sonucunun chat.py ye yollanmasi 
+# 8. Save the Final Model                           # bu kismin amaci training sonucunun chat.py ye yollanmasi 
 trainer.save_model("./final_model")                 # eger chat.py iptal olursa silinebilir 
 tokenizer.save_pretrained("./final_model")
 print("Training finished. Model saved to ./final_model")
