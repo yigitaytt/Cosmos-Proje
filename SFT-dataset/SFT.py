@@ -17,10 +17,22 @@ model.config.pad_token_id = tokenizer.pad_token_id
 
 # 2. Load your Dataset
 # It must have 'question' and 'answer' columns
-dataset = load_dataset("json", data_files="Final_Turkish_Math_Mix_130k.jsonl", split="train")
+
+def filter_long_sequences(example):
+    # Eğitimdekiyle aynı formatı oluştur
+    formatted_text = f"### Soru:\n{example['instruction']}\n\n### Cevap:\n{example['output']}" + tokenizer.eos_token 
+    # Token uzunluğunu ölç
+    return len(tokenizer(formatted_text)["input_ids"]) <= 1024
+
+print(f"Filtreleme öncesi veri sayısı: {len(dataset)}")
+
+# 2. Veri setini filtrele (num_proc hızlandırır)
+dataset = dataset.filter(filter_long_sequences, num_proc=4)
+
+print(f"Filtreleme sonrası veri sayısı: {len(dataset)}")
 
 
-dataset_dict = dataset.train_test_split(test_size=0.1, seed=42)
+dataset_dict = dataset.train_test_split(test_size=4000, seed=42)
 
 train_dataset = dataset_dict["train"]
 eval_dataset = dataset_dict["test"]
@@ -54,7 +66,7 @@ if not question_col or not answer_col:
 def formatting_prompts_func(example):
     output_texts = []
     for q, a in zip(example[question_col], example[answer_col]):
-        formatted_text = f"### Question:\n{q}\n\n### Answer:\n{a}" + tokenizer.eos_token 
+        formatted_text = f"### Soru:\n{q}\n\n### Cevap:\n{a}" + tokenizer.eos_token 
         output_texts.append(formatted_text)
         
     return output_texts
@@ -69,12 +81,12 @@ sft_config = SFTConfig(
     learning_rate=2e-5,
     num_train_epochs=3,     # burdaki 3luyle duruma gore oynayabiliriz
     logging_steps=10, 
-    bf16=True,      # normalde 32bitlik fp kullanilirken bunu 16'ya dusurup yaklasik %50 memory ve hizdan kazaniyo
+    fp16=True,      # normalde 32bitlik fp kullanilirken bunu 16'ya dusurup yaklasik %50 memory ve hizdan kazaniyo
                     # bunu her sey icin yapmiyo onemli kisimlari hala 32likte yapiyo 
                     # eger your hardware doesn t support bf16 uyarisi alinirsa bf16 yerin fp16 yazilacak
     eval_strategy="steps",
-    eval_steps=100,                 # adim adim sonuc izlemek icin
-    save_steps=100,                 
+    eval_steps=500,                 # adim adim sonuc izlemek icin
+    save_steps=500,                 
     save_total_limit=2,             # geriden 2 tane chekpoint tutuyo
     load_best_model_at_end=True,    # eger olurda 3. epoch sirasinda overfit yasanirsa gecmisteki en iyi halden devam
     metric_for_best_model="eval_loss",

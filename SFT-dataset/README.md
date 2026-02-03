@@ -1,0 +1,1 @@
+before using the SFT.py do not forget to change path for the data set.

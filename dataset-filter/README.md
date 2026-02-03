@@ -1,3 +1,0 @@
-This code is designed for filtering the american metric system from a mathematical data set with translation errors. If a data set have both american and european metric systems mixed in a sentences without doing the transition (for instance mile x 1.6 = km) it would confuse the model. To solve this problem this script basically deletes each row which includes terms like; mile, dollar, feet... and makes the data set more clean.
-
-Before running the code beware for the column names. If the dataset's column names are different than 'query' and 'response' add the new column names to the code.
