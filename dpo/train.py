@@ -11,7 +11,7 @@ new_model_name = "uhem-dpo-model"
 # --- 2. MODEL VE TOKENIZER ---
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    torch_dtype=torch.float16,
+    torch_dtype=torch.float16,    #torch_dtype=dtype olarak değişebilir.
     device_map="auto"
 )
 
