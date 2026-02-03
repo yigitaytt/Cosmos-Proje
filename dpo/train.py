@@ -70,8 +70,8 @@ training_args = DPOConfig(
     gradient_accumulation_steps=8,  # 2x8 = 16, 8 adım sonrasında model ortalama alarak güncelleme yapar.
     
     # --- Isınma (Warm-up) ---
-    warmup_ratio=0.1,    #Başlangıçta momentum olmadığı için SFT'den gelen ağırlıklarda yüksek bir değişiklik yapmaması için yavaş yavaş modelin eğitilmesini sağlar.
-                         #Veri setinin ilk 0.1 oranındaki adımında model yavaş şekilde eğitilir. LR değeri bundan sonra tam değerinde kullanılır.
+    warmup_ratio=0.05,    #Başlangıçta momentum olmadığı için SFT'den gelen ağırlıklarda yüksek bir değişiklik yapmaması için yavaş yavaş modelin eğitilmesini sağlar.
+                         #Veri setinin ilk 0.05 oranındaki adımında model yavaş şekilde eğitilir. LR değeri bundan sonra tam değerinde kullanılır.
   
     lr_scheduler_type="cosine",  #Modelin en sonda yavaş yavaş değişikliği bitirmesini sağlar.
                                  # Eğer model sonlarda optimum hale geldiyse modelde fazla değişiklik yapmamızın önüne geçmiş olur.
