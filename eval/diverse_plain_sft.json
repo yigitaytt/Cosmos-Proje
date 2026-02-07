@@ -1,0 +1,1202 @@
+[
+    {
+        "question": "61 ile 13 arasındaki fark nedir?",
+        "answer": "61 sayısından 13 çıktığında sonuç 48 olur. Cevap: #### 48"
+    },
+    {
+        "question": "94 ile 13 arasındaki fark nedir?",
+        "answer": "94 sayısından 13 çıktığında sonuç 81 olur. Cevap: #### 81"
+    },
+    {
+        "question": "132 ile 43 arasındaki fark nedir?",
+        "answer": "132 sayısından 43 çıktığında sonuç 89 olur. Cevap: #### 89"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 67 eder?",
+        "answer": "Sonuç 67 ise, 67 sayısından 37 çıkararak bilinmeyeni buluruz. 67 - 37 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "Tanesi 6 lira olan kalemlerden 5 tane alırsam kaç lira öderim?",
+        "answer": "6 ile 5 çarpılırsa 30 bulunur. Cevap: #### 30"
+    },
+    {
+        "question": "80 sayfalık kitabın 37 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "55 sayısından 37 çıktığında sonuç 18 olur. Cevap: #### 18"
+    },
+    {
+        "question": "Hangi sayıya 29 eklersek sonuç 56 eder?",
+        "answer": "Sonuç 56 ise, 56 sayısından 29 çıkararak bilinmeyeni buluruz. 56 - 29 = 27. Cevap: #### 27"
+    },
+    {
+        "question": "Hangi sayıya 17 eklersek sonuç 23 eder?",
+        "answer": "Sonuç 23 ise, 23 sayısından 17 çıkararak bilinmeyeni buluruz. 23 - 17 = 6. Cevap: #### 6"
+    },
+    {
+        "question": "80 sayfalık kitabın 25 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "128 sayısından 25 çıktığında sonuç 103 olur. Cevap: #### 103"
+    },
+    {
+        "question": "113 sayısından 26 çıkarılırsa geriye ne kalır?",
+        "answer": "113 sayısından 26 çıktığında sonuç 87 olur. Cevap: #### 87"
+    },
+    {
+        "question": "101 ile 21 arasındaki fark nedir?",
+        "answer": "101 sayısından 21 çıktığında sonuç 80 olur. Cevap: #### 80"
+    },
+    {
+        "question": "114 ile 16 arasındaki fark nedir?",
+        "answer": "114 sayısından 16 çıktığında sonuç 98 olur. Cevap: #### 98"
+    },
+    {
+        "question": "11 sayısına 52 eklersek sonuç ne olur?",
+        "answer": "11 ve 52 toplandığında 63 yapar. Cevap: #### 63"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 52 eder?",
+        "answer": "Sonuç 52 ise, 52 sayısından 37 çıkararak bilinmeyeni buluruz. 52 - 37 = 15. Cevap: #### 15"
+    },
+    {
+        "question": "Hangi sayıya 50 eklersek sonuç 71 eder?",
+        "answer": "Sonuç 71 ise, 71 sayısından 50 çıkararak bilinmeyeni buluruz. 71 - 50 = 21. Cevap: #### 21"
+    },
+    {
+        "question": "142 sayısından 3 çıkarılırsa geriye ne kalır?",
+        "answer": "142 sayısından 3 çıktığında sonuç 139 olur. Cevap: #### 139"
+    },
+    {
+        "question": "Cebimde 50 lira vardı, babam 4 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "50 ve 4 toplandığında 54 yapar. Cevap: #### 54"
+    },
+    {
+        "question": "57 ile 24 arasındaki fark nedir?",
+        "answer": "57 sayısından 24 çıktığında sonuç 33 olur. Cevap: #### 33"
+    },
+    {
+        "question": "2 tane 3 toplamı kaçtır?",
+        "answer": "2 ile 3 çarpılırsa 6 bulunur. Cevap: #### 6"
+    },
+    {
+        "question": "57 sayısından 43 çıkarılırsa geriye ne kalır?",
+        "answer": "57 sayısından 43 çıktığında sonuç 14 olur. Cevap: #### 14"
+    },
+    {
+        "question": "80 ile 37 arasındaki fark nedir?",
+        "answer": "80 sayısından 37 çıktığında sonuç 43 olur. Cevap: #### 43"
+    },
+    {
+        "question": "80 sayfalık kitabın 4 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "127 sayısından 4 çıktığında sonuç 123 olur. Cevap: #### 123"
+    },
+    {
+        "question": "Tanesi 3 lira olan kalemlerden 3 tane alırsam kaç lira öderim?",
+        "answer": "3 ile 3 çarpılırsa 9 bulunur. Cevap: #### 9"
+    },
+    {
+        "question": "Hangi sayıya 32 eklersek sonuç 44 eder?",
+        "answer": "Sonuç 44 ise, 44 sayısından 32 çıkararak bilinmeyeni buluruz. 44 - 32 = 12. Cevap: #### 12"
+    },
+    {
+        "question": "80 sayfalık kitabın 35 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "80 sayısından 35 çıktığında sonuç 45 olur. Cevap: #### 45"
+    },
+    {
+        "question": "Hangi sayıya 12 eklersek sonuç 41 eder?",
+        "answer": "Sonuç 41 ise, 41 sayısından 12 çıkararak bilinmeyeni buluruz. 41 - 12 = 29. Cevap: #### 29"
+    },
+    {
+        "question": "Hangi sayıya 31 eklersek sonuç 36 eder?",
+        "answer": "Sonuç 36 ise, 36 sayısından 31 çıkararak bilinmeyeni buluruz. 36 - 31 = 5. Cevap: #### 5"
+    },
+    {
+        "question": "Tanesi 4 lira olan kalemlerden 12 tane alırsam kaç lira öderim?",
+        "answer": "4 ile 12 çarpılırsa 48 bulunur. Cevap: #### 48"
+    },
+    {
+        "question": "146 sayısından 21 çıkarılırsa geriye ne kalır?",
+        "answer": "146 sayısından 21 çıktığında sonuç 125 olur. Cevap: #### 125"
+    },
+    {
+        "question": "Cebimde 87 lira vardı, babam 48 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "87 ve 48 toplandığında 135 yapar. Cevap: #### 135"
+    },
+    {
+        "question": "93 ile 29 toplamı kaçtır?",
+        "answer": "93 ve 29 toplandığında 122 yapar. Cevap: #### 122"
+    },
+    {
+        "question": "42 sayısına 59 eklersek sonuç ne olur?",
+        "answer": "42 ve 59 toplandığında 101 yapar. Cevap: #### 101"
+    },
+    {
+        "question": "60 sayısından 39 çıkarılırsa geriye ne kalır?",
+        "answer": "60 sayısından 39 çıktığında sonuç 21 olur. Cevap: #### 21"
+    },
+    {
+        "question": "Hangi sayıya 42 eklersek sonuç 62 eder?",
+        "answer": "Sonuç 62 ise, 62 sayısından 42 çıkararak bilinmeyeni buluruz. 62 - 42 = 20. Cevap: #### 20"
+    },
+    {
+        "question": "130 ile 33 arasındaki fark nedir?",
+        "answer": "130 sayısından 33 çıktığında sonuç 97 olur. Cevap: #### 97"
+    },
+    {
+        "question": "3 tane 5 toplamı kaçtır?",
+        "answer": "3 ile 5 çarpılırsa 15 bulunur. Cevap: #### 15"
+    },
+    {
+        "question": "Hangi sayıya 27 eklersek sonuç 40 eder?",
+        "answer": "Sonuç 40 ise, 40 sayısından 27 çıkararak bilinmeyeni buluruz. 40 - 27 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "Hangi sayıya 50 eklersek sonuç 74 eder?",
+        "answer": "Sonuç 74 ise, 74 sayısından 50 çıkararak bilinmeyeni buluruz. 74 - 50 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "39 ile 29 toplamı kaçtır?",
+        "answer": "39 ve 29 toplandığında 68 yapar. Cevap: #### 68"
+    },
+    {
+        "question": "89 sayısına 5 eklersek sonuç ne olur?",
+        "answer": "89 ve 5 toplandığında 94 yapar. Cevap: #### 94"
+    },
+    {
+        "question": "Hangi sayıya 48 eklersek sonuç 74 eder?",
+        "answer": "Sonuç 74 ise, 74 sayısından 48 çıkararak bilinmeyeni buluruz. 74 - 48 = 26. Cevap: #### 26"
+    },
+    {
+        "question": "80 sayfalık kitabın 7 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "106 sayısından 7 çıktığında sonuç 99 olur. Cevap: #### 99"
+    },
+    {
+        "question": "41 sayısına 20 eklersek sonuç ne olur?",
+        "answer": "41 ve 20 toplandığında 61 yapar. Cevap: #### 61"
+    },
+    {
+        "question": "104 ile 36 arasındaki fark nedir?",
+        "answer": "104 sayısından 36 çıktığında sonuç 68 olur. Cevap: #### 68"
+    },
+    {
+        "question": "49 ile 44 toplamı kaçtır?",
+        "answer": "49 ve 44 toplandığında 93 yapar. Cevap: #### 93"
+    },
+    {
+        "question": "125 ile 32 arasındaki fark nedir?",
+        "answer": "125 sayısından 32 çıktığında sonuç 93 olur. Cevap: #### 93"
+    },
+    {
+        "question": "116 ile 49 arasındaki fark nedir?",
+        "answer": "116 sayısından 49 çıktığında sonuç 67 olur. Cevap: #### 67"
+    },
+    {
+        "question": "Hangi sayıya 13 eklersek sonuç 38 eder?",
+        "answer": "Sonuç 38 ise, 38 sayısından 13 çıkararak bilinmeyeni buluruz. 38 - 13 = 25. Cevap: #### 25"
+    },
+    {
+        "question": "Tanesi 2 lira olan kalemlerden 8 tane alırsam kaç lira öderim?",
+        "answer": "2 ile 8 çarpılırsa 16 bulunur. Cevap: #### 16"
+    },
+    {
+        "question": "Hangi sayıya 48 eklersek sonuç 72 eder?",
+        "answer": "Sonuç 72 ise, 72 sayısından 48 çıkararak bilinmeyeni buluruz. 72 - 48 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "Hangi sayıya 10 eklersek sonuç 26 eder?",
+        "answer": "Sonuç 26 ise, 26 sayısından 10 çıkararak bilinmeyeni buluruz. 26 - 10 = 16. Cevap: #### 16"
+    },
+    {
+        "question": "6 sayısının 10 katı kaçtır?",
+        "answer": "6 ile 10 çarpılırsa 60 bulunur. Cevap: #### 60"
+    },
+    {
+        "question": "29 sayısına 19 eklersek sonuç ne olur?",
+        "answer": "29 ve 19 toplandığında 48 yapar. Cevap: #### 48"
+    },
+    {
+        "question": "80 sayfalık kitabın 23 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "125 sayısından 23 çıktığında sonuç 102 olur. Cevap: #### 102"
+    },
+    {
+        "question": "Hangi sayıya 32 eklersek sonuç 39 eder?",
+        "answer": "Sonuç 39 ise, 39 sayısından 32 çıkararak bilinmeyeni buluruz. 39 - 32 = 7. Cevap: #### 7"
+    },
+    {
+        "question": "Hangi sayıya 38 eklersek sonuç 43 eder?",
+        "answer": "Sonuç 43 ise, 43 sayısından 38 çıkararak bilinmeyeni buluruz. 43 - 38 = 5. Cevap: #### 5"
+    },
+    {
+        "question": "Hangi sayıya 48 eklersek sonuç 61 eder?",
+        "answer": "Sonuç 61 ise, 61 sayısından 48 çıkararak bilinmeyeni buluruz. 61 - 48 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "4 tane 7 toplamı kaçtır?",
+        "answer": "4 ile 7 çarpılırsa 28 bulunur. Cevap: #### 28"
+    },
+    {
+        "question": "87 ile 3 toplamı kaçtır?",
+        "answer": "87 ve 3 toplandığında 90 yapar. Cevap: #### 90"
+    },
+    {
+        "question": "Hangi sayıya 48 eklersek sonuç 59 eder?",
+        "answer": "Sonuç 59 ise, 59 sayısından 48 çıkararak bilinmeyeni buluruz. 59 - 48 = 11. Cevap: #### 11"
+    },
+    {
+        "question": "115 ile 29 arasındaki fark nedir?",
+        "answer": "115 sayısından 29 çıktığında sonuç 86 olur. Cevap: #### 86"
+    },
+    {
+        "question": "80 sayfalık kitabın 33 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "56 sayısından 33 çıktığında sonuç 23 olur. Cevap: #### 23"
+    },
+    {
+        "question": "Hangi sayıya 45 eklersek sonuç 69 eder?",
+        "answer": "Sonuç 69 ise, 69 sayısından 45 çıkararak bilinmeyeni buluruz. 69 - 45 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "Hangi sayıya 13 eklersek sonuç 39 eder?",
+        "answer": "Sonuç 39 ise, 39 sayısından 13 çıkararak bilinmeyeni buluruz. 39 - 13 = 26. Cevap: #### 26"
+    },
+    {
+        "question": "80 sayfalık kitabın 33 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "101 sayısından 33 çıktığında sonuç 68 olur. Cevap: #### 68"
+    },
+    {
+        "question": "Cebimde 57 lira vardı, babam 45 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "57 ve 45 toplandığında 102 yapar. Cevap: #### 102"
+    },
+    {
+        "question": "91 ile 52 toplamı kaçtır?",
+        "answer": "91 ve 52 toplandığında 143 yapar. Cevap: #### 143"
+    },
+    {
+        "question": "25 sayısına 16 eklersek sonuç ne olur?",
+        "answer": "25 ve 16 toplandığında 41 yapar. Cevap: #### 41"
+    },
+    {
+        "question": "89 sayısından 49 çıkarılırsa geriye ne kalır?",
+        "answer": "89 sayısından 49 çıktığında sonuç 40 olur. Cevap: #### 40"
+    },
+    {
+        "question": "118 ile 35 arasındaki fark nedir?",
+        "answer": "118 sayısından 35 çıktığında sonuç 83 olur. Cevap: #### 83"
+    },
+    {
+        "question": "116 ile 6 arasındaki fark nedir?",
+        "answer": "116 sayısından 6 çıktığında sonuç 110 olur. Cevap: #### 110"
+    },
+    {
+        "question": "Cebimde 76 lira vardı, babam 51 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "76 ve 51 toplandığında 127 yapar. Cevap: #### 127"
+    },
+    {
+        "question": "3 tane 12 toplamı kaçtır?",
+        "answer": "3 ile 12 çarpılırsa 36 bulunur. Cevap: #### 36"
+    },
+    {
+        "question": "97 sayısına 43 eklersek sonuç ne olur?",
+        "answer": "97 ve 43 toplandığında 140 yapar. Cevap: #### 140"
+    },
+    {
+        "question": "Hangi sayıya 22 eklersek sonuç 47 eder?",
+        "answer": "Sonuç 47 ise, 47 sayısından 22 çıkararak bilinmeyeni buluruz. 47 - 22 = 25. Cevap: #### 25"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 55 eder?",
+        "answer": "Sonuç 55 ise, 55 sayısından 37 çıkararak bilinmeyeni buluruz. 55 - 37 = 18. Cevap: #### 18"
+    },
+    {
+        "question": "36 ile 84 toplamı kaçtır?",
+        "answer": "36 ve 84 toplandığında 120 yapar. Cevap: #### 120"
+    },
+    {
+        "question": "Hangi sayıya 20 eklersek sonuç 50 eder?",
+        "answer": "Sonuç 50 ise, 50 sayısından 20 çıkararak bilinmeyeni buluruz. 50 - 20 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "10 tane 9 toplamı kaçtır?",
+        "answer": "10 ile 9 çarpılırsa 90 bulunur. Cevap: #### 90"
+    },
+    {
+        "question": "Tanesi 6 lira olan kalemlerden 6 tane alırsam kaç lira öderim?",
+        "answer": "6 ile 6 çarpılırsa 36 bulunur. Cevap: #### 36"
+    },
+    {
+        "question": "Tanesi 3 lira olan kalemlerden 9 tane alırsam kaç lira öderim?",
+        "answer": "3 ile 9 çarpılırsa 27 bulunur. Cevap: #### 27"
+    },
+    {
+        "question": "Hangi sayıya 30 eklersek sonuç 54 eder?",
+        "answer": "Sonuç 54 ise, 54 sayısından 30 çıkararak bilinmeyeni buluruz. 54 - 30 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "64 ile 19 arasındaki fark nedir?",
+        "answer": "64 sayısından 19 çıktığında sonuç 45 olur. Cevap: #### 45"
+    },
+    {
+        "question": "89 sayısına 42 eklersek sonuç ne olur?",
+        "answer": "89 ve 42 toplandığında 131 yapar. Cevap: #### 131"
+    },
+    {
+        "question": "150 ile 32 arasındaki fark nedir?",
+        "answer": "150 sayısından 32 çıktığında sonuç 118 olur. Cevap: #### 118"
+    },
+    {
+        "question": "9 sayısının 6 katı kaçtır?",
+        "answer": "9 ile 6 çarpılırsa 54 bulunur. Cevap: #### 54"
+    },
+    {
+        "question": "71 ile 57 toplamı kaçtır?",
+        "answer": "71 ve 57 toplandığında 128 yapar. Cevap: #### 128"
+    },
+    {
+        "question": "55 ile 36 arasındaki fark nedir?",
+        "answer": "55 sayısından 36 çıktığında sonuç 19 olur. Cevap: #### 19"
+    },
+    {
+        "question": "Hangi sayıya 23 eklersek sonuç 35 eder?",
+        "answer": "Sonuç 35 ise, 35 sayısından 23 çıkararak bilinmeyeni buluruz. 35 - 23 = 12. Cevap: #### 12"
+    },
+    {
+        "question": "95 sayısından 28 çıkarılırsa geriye ne kalır?",
+        "answer": "95 sayısından 28 çıktığında sonuç 67 olur. Cevap: #### 67"
+    },
+    {
+        "question": "Hangi sayıya 42 eklersek sonuç 72 eder?",
+        "answer": "Sonuç 72 ise, 72 sayısından 42 çıkararak bilinmeyeni buluruz. 72 - 42 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "3 tane 6 toplamı kaçtır?",
+        "answer": "3 ile 6 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "80 sayfalık kitabın 47 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "136 sayısından 47 çıktığında sonuç 89 olur. Cevap: #### 89"
+    },
+    {
+        "question": "33 ile 93 toplamı kaçtır?",
+        "answer": "33 ve 93 toplandığında 126 yapar. Cevap: #### 126"
+    },
+    {
+        "question": "Hangi sayıya 46 eklersek sonuç 51 eder?",
+        "answer": "Sonuç 51 ise, 51 sayısından 46 çıkararak bilinmeyeni buluruz. 51 - 46 = 5. Cevap: #### 5"
+    },
+    {
+        "question": "1 sayısına 85 eklersek sonuç ne olur?",
+        "answer": "1 ve 85 toplandığında 86 yapar. Cevap: #### 86"
+    },
+    {
+        "question": "Tanesi 8 lira olan kalemlerden 4 tane alırsam kaç lira öderim?",
+        "answer": "8 ile 4 çarpılırsa 32 bulunur. Cevap: #### 32"
+    },
+    {
+        "question": "3 ile 87 toplamı kaçtır?",
+        "answer": "3 ve 87 toplandığında 90 yapar. Cevap: #### 90"
+    },
+    {
+        "question": "Tanesi 2 lira olan kalemlerden 7 tane alırsam kaç lira öderim?",
+        "answer": "2 ile 7 çarpılırsa 14 bulunur. Cevap: #### 14"
+    },
+    {
+        "question": "8 sayısının 4 katı kaçtır?",
+        "answer": "8 ile 4 çarpılırsa 32 bulunur. Cevap: #### 32"
+    },
+    {
+        "question": "Hangi sayıya 46 eklersek sonuç 52 eder?",
+        "answer": "Sonuç 52 ise, 52 sayısından 46 çıkararak bilinmeyeni buluruz. 52 - 46 = 6. Cevap: #### 6"
+    },
+    {
+        "question": "Tanesi 6 lira olan kalemlerden 7 tane alırsam kaç lira öderim?",
+        "answer": "6 ile 7 çarpılırsa 42 bulunur. Cevap: #### 42"
+    },
+    {
+        "question": "Hangi sayıya 29 eklersek sonuç 46 eder?",
+        "answer": "Sonuç 46 ise, 46 sayısından 29 çıkararak bilinmeyeni buluruz. 46 - 29 = 17. Cevap: #### 17"
+    },
+    {
+        "question": "Hangi sayıya 21 eklersek sonuç 32 eder?",
+        "answer": "Sonuç 32 ise, 32 sayısından 21 çıkararak bilinmeyeni buluruz. 32 - 21 = 11. Cevap: #### 11"
+    },
+    {
+        "question": "Hangi sayıya 18 eklersek sonuç 27 eder?",
+        "answer": "Sonuç 27 ise, 27 sayısından 18 çıkararak bilinmeyeni buluruz. 27 - 18 = 9. Cevap: #### 9"
+    },
+    {
+        "question": "Hangi sayıya 22 eklersek sonuç 33 eder?",
+        "answer": "Sonuç 33 ise, 33 sayısından 22 çıkararak bilinmeyeni buluruz. 33 - 22 = 11. Cevap: #### 11"
+    },
+    {
+        "question": "Hangi sayıya 38 eklersek sonuç 57 eder?",
+        "answer": "Sonuç 57 ise, 57 sayısından 38 çıkararak bilinmeyeni buluruz. 57 - 38 = 19. Cevap: #### 19"
+    },
+    {
+        "question": "135 ile 4 arasındaki fark nedir?",
+        "answer": "135 sayısından 4 çıktığında sonuç 131 olur. Cevap: #### 131"
+    },
+    {
+        "question": "80 sayfalık kitabın 43 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "100 sayısından 43 çıktığında sonuç 57 olur. Cevap: #### 57"
+    },
+    {
+        "question": "8 tane 6 toplamı kaçtır?",
+        "answer": "8 ile 6 çarpılırsa 48 bulunur. Cevap: #### 48"
+    },
+    {
+        "question": "56 sayısına 9 eklersek sonuç ne olur?",
+        "answer": "56 ve 9 toplandığında 65 yapar. Cevap: #### 65"
+    },
+    {
+        "question": "Hangi sayıya 42 eklersek sonuç 62 eder?",
+        "answer": "Sonuç 62 ise, 62 sayısından 42 çıkararak bilinmeyeni buluruz. 62 - 42 = 20. Cevap: #### 20"
+    },
+    {
+        "question": "Hangi sayıya 39 eklersek sonuç 69 eder?",
+        "answer": "Sonuç 69 ise, 69 sayısından 39 çıkararak bilinmeyeni buluruz. 69 - 39 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "Hangi sayıya 20 eklersek sonuç 42 eder?",
+        "answer": "Sonuç 42 ise, 42 sayısından 20 çıkararak bilinmeyeni buluruz. 42 - 20 = 22. Cevap: #### 22"
+    },
+    {
+        "question": "116 ile 39 arasındaki fark nedir?",
+        "answer": "116 sayısından 39 çıktığında sonuç 77 olur. Cevap: #### 77"
+    },
+    {
+        "question": "Hangi sayıya 41 eklersek sonuç 47 eder?",
+        "answer": "Sonuç 47 ise, 47 sayısından 41 çıkararak bilinmeyeni buluruz. 47 - 41 = 6. Cevap: #### 6"
+    },
+    {
+        "question": "Hangi sayıya 50 eklersek sonuç 74 eder?",
+        "answer": "Sonuç 74 ise, 74 sayısından 50 çıkararak bilinmeyeni buluruz. 74 - 50 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "6 tane 4 toplamı kaçtır?",
+        "answer": "6 ile 4 çarpılırsa 24 bulunur. Cevap: #### 24"
+    },
+    {
+        "question": "Tanesi 8 lira olan kalemlerden 4 tane alırsam kaç lira öderim?",
+        "answer": "8 ile 4 çarpılırsa 32 bulunur. Cevap: #### 32"
+    },
+    {
+        "question": "94 sayısına 9 eklersek sonuç ne olur?",
+        "answer": "94 ve 9 toplandığında 103 yapar. Cevap: #### 103"
+    },
+    {
+        "question": "3 tane 3 toplamı kaçtır?",
+        "answer": "3 ile 3 çarpılırsa 9 bulunur. Cevap: #### 9"
+    },
+    {
+        "question": "2 sayısının 5 katı kaçtır?",
+        "answer": "2 ile 5 çarpılırsa 10 bulunur. Cevap: #### 10"
+    },
+    {
+        "question": "Hangi sayıya 19 eklersek sonuç 49 eder?",
+        "answer": "Sonuç 49 ise, 49 sayısından 19 çıkararak bilinmeyeni buluruz. 49 - 19 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "63 ile 49 arasındaki fark nedir?",
+        "answer": "63 sayısından 49 çıktığında sonuç 14 olur. Cevap: #### 14"
+    },
+    {
+        "question": "129 sayısından 23 çıkarılırsa geriye ne kalır?",
+        "answer": "129 sayısından 23 çıktığında sonuç 106 olur. Cevap: #### 106"
+    },
+    {
+        "question": "Hangi sayıya 50 eklersek sonuç 80 eder?",
+        "answer": "Sonuç 80 ise, 80 sayısından 50 çıkararak bilinmeyeni buluruz. 80 - 50 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "10 tane 3 toplamı kaçtır?",
+        "answer": "10 ile 3 çarpılırsa 30 bulunur. Cevap: #### 30"
+    },
+    {
+        "question": "Tanesi 9 lira olan kalemlerden 4 tane alırsam kaç lira öderim?",
+        "answer": "9 ile 4 çarpılırsa 36 bulunur. Cevap: #### 36"
+    },
+    {
+        "question": "Cebimde 63 lira vardı, babam 42 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "63 ve 42 toplandığında 105 yapar. Cevap: #### 105"
+    },
+    {
+        "question": "94 ile 42 toplamı kaçtır?",
+        "answer": "94 ve 42 toplandığında 136 yapar. Cevap: #### 136"
+    },
+    {
+        "question": "9 tane 6 toplamı kaçtır?",
+        "answer": "9 ile 6 çarpılırsa 54 bulunur. Cevap: #### 54"
+    },
+    {
+        "question": "80 sayfalık kitabın 13 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "137 sayısından 13 çıktığında sonuç 124 olur. Cevap: #### 124"
+    },
+    {
+        "question": "89 ile 47 toplamı kaçtır?",
+        "answer": "89 ve 47 toplandığında 136 yapar. Cevap: #### 136"
+    },
+    {
+        "question": "Hangi sayıya 34 eklersek sonuç 51 eder?",
+        "answer": "Sonuç 51 ise, 51 sayısından 34 çıkararak bilinmeyeni buluruz. 51 - 34 = 17. Cevap: #### 17"
+    },
+    {
+        "question": "9 sayısına 97 eklersek sonuç ne olur?",
+        "answer": "9 ve 97 toplandığında 106 yapar. Cevap: #### 106"
+    },
+    {
+        "question": "56 sayısından 28 çıkarılırsa geriye ne kalır?",
+        "answer": "56 sayısından 28 çıktığında sonuç 28 olur. Cevap: #### 28"
+    },
+    {
+        "question": "80 sayfalık kitabın 6 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "141 sayısından 6 çıktığında sonuç 135 olur. Cevap: #### 135"
+    },
+    {
+        "question": "Cebimde 61 lira vardı, babam 94 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "61 ve 94 toplandığında 155 yapar. Cevap: #### 155"
+    },
+    {
+        "question": "4 tane 7 toplamı kaçtır?",
+        "answer": "4 ile 7 çarpılırsa 28 bulunur. Cevap: #### 28"
+    },
+    {
+        "question": "Hangi sayıya 46 eklersek sonuç 70 eder?",
+        "answer": "Sonuç 70 ise, 70 sayısından 46 çıkararak bilinmeyeni buluruz. 70 - 46 = 24. Cevap: #### 24"
+    },
+    {
+        "question": "Hangi sayıya 43 eklersek sonuç 62 eder?",
+        "answer": "Sonuç 62 ise, 62 sayısından 43 çıkararak bilinmeyeni buluruz. 62 - 43 = 19. Cevap: #### 19"
+    },
+    {
+        "question": "59 sayısına 9 eklersek sonuç ne olur?",
+        "answer": "59 ve 9 toplandığında 68 yapar. Cevap: #### 68"
+    },
+    {
+        "question": "9 tane 2 toplamı kaçtır?",
+        "answer": "9 ile 2 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "91 sayısına 11 eklersek sonuç ne olur?",
+        "answer": "91 ve 11 toplandığında 102 yapar. Cevap: #### 102"
+    },
+    {
+        "question": "119 sayısından 43 çıkarılırsa geriye ne kalır?",
+        "answer": "119 sayısından 43 çıktığında sonuç 76 olur. Cevap: #### 76"
+    },
+    {
+        "question": "3 tane 6 toplamı kaçtır?",
+        "answer": "3 ile 6 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "93 ile 34 arasındaki fark nedir?",
+        "answer": "93 sayısından 34 çıktığında sonuç 59 olur. Cevap: #### 59"
+    },
+    {
+        "question": "2 tane 6 toplamı kaçtır?",
+        "answer": "2 ile 6 çarpılırsa 12 bulunur. Cevap: #### 12"
+    },
+    {
+        "question": "3 sayısının 6 katı kaçtır?",
+        "answer": "3 ile 6 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "53 sayısına 9 eklersek sonuç ne olur?",
+        "answer": "53 ve 9 toplandığında 62 yapar. Cevap: #### 62"
+    },
+    {
+        "question": "42 sayısına 21 eklersek sonuç ne olur?",
+        "answer": "42 ve 21 toplandığında 63 yapar. Cevap: #### 63"
+    },
+    {
+        "question": "Hangi sayıya 15 eklersek sonuç 28 eder?",
+        "answer": "Sonuç 28 ise, 28 sayısından 15 çıkararak bilinmeyeni buluruz. 28 - 15 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "58 sayısına 54 eklersek sonuç ne olur?",
+        "answer": "58 ve 54 toplandığında 112 yapar. Cevap: #### 112"
+    },
+    {
+        "question": "Tanesi 2 lira olan kalemlerden 9 tane alırsam kaç lira öderim?",
+        "answer": "2 ile 9 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "4 sayısının 2 katı kaçtır?",
+        "answer": "4 ile 2 çarpılırsa 8 bulunur. Cevap: #### 8"
+    },
+    {
+        "question": "60 sayısına 22 eklersek sonuç ne olur?",
+        "answer": "60 ve 22 toplandığında 82 yapar. Cevap: #### 82"
+    },
+    {
+        "question": "Tanesi 8 lira olan kalemlerden 12 tane alırsam kaç lira öderim?",
+        "answer": "8 ile 12 çarpılırsa 96 bulunur. Cevap: #### 96"
+    },
+    {
+        "question": "Hangi sayıya 46 eklersek sonuç 72 eder?",
+        "answer": "Sonuç 72 ise, 72 sayısından 46 çıkararak bilinmeyeni buluruz. 72 - 46 = 26. Cevap: #### 26"
+    },
+    {
+        "question": "80 sayfalık kitabın 1 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "88 sayısından 1 çıktığında sonuç 87 olur. Cevap: #### 87"
+    },
+    {
+        "question": "2 sayısının 9 katı kaçtır?",
+        "answer": "2 ile 9 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "80 sayfalık kitabın 37 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "140 sayısından 37 çıktığında sonuç 103 olur. Cevap: #### 103"
+    },
+    {
+        "question": "2 sayısının 11 katı kaçtır?",
+        "answer": "2 ile 11 çarpılırsa 22 bulunur. Cevap: #### 22"
+    },
+    {
+        "question": "6 sayısının 2 katı kaçtır?",
+        "answer": "6 ile 2 çarpılırsa 12 bulunur. Cevap: #### 12"
+    },
+    {
+        "question": "3 sayısına 45 eklersek sonuç ne olur?",
+        "answer": "3 ve 45 toplandığında 48 yapar. Cevap: #### 48"
+    },
+    {
+        "question": "Hangi sayıya 14 eklersek sonuç 27 eder?",
+        "answer": "Sonuç 27 ise, 27 sayısından 14 çıkararak bilinmeyeni buluruz. 27 - 14 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "Tanesi 4 lira olan kalemlerden 12 tane alırsam kaç lira öderim?",
+        "answer": "4 ile 12 çarpılırsa 48 bulunur. Cevap: #### 48"
+    },
+    {
+        "question": "7 ile 36 toplamı kaçtır?",
+        "answer": "7 ve 36 toplandığında 43 yapar. Cevap: #### 43"
+    },
+    {
+        "question": "Hangi sayıya 16 eklersek sonuç 42 eder?",
+        "answer": "Sonuç 42 ise, 42 sayısından 16 çıkararak bilinmeyeni buluruz. 42 - 16 = 26. Cevap: #### 26"
+    },
+    {
+        "question": "Tanesi 8 lira olan kalemlerden 7 tane alırsam kaç lira öderim?",
+        "answer": "8 ile 7 çarpılırsa 56 bulunur. Cevap: #### 56"
+    },
+    {
+        "question": "92 sayısından 45 çıkarılırsa geriye ne kalır?",
+        "answer": "92 sayısından 45 çıktığında sonuç 47 olur. Cevap: #### 47"
+    },
+    {
+        "question": "Hangi sayıya 36 eklersek sonuç 46 eder?",
+        "answer": "Sonuç 46 ise, 46 sayısından 36 çıkararak bilinmeyeni buluruz. 46 - 36 = 10. Cevap: #### 10"
+    },
+    {
+        "question": "Cebimde 5 lira vardı, babam 15 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "5 ve 15 toplandığında 20 yapar. Cevap: #### 20"
+    },
+    {
+        "question": "66 ile 9 toplamı kaçtır?",
+        "answer": "66 ve 9 toplandığında 75 yapar. Cevap: #### 75"
+    },
+    {
+        "question": "3 sayısının 5 katı kaçtır?",
+        "answer": "3 ile 5 çarpılırsa 15 bulunur. Cevap: #### 15"
+    },
+    {
+        "question": "Cebimde 62 lira vardı, babam 76 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "62 ve 76 toplandığında 138 yapar. Cevap: #### 138"
+    },
+    {
+        "question": "120 sayısından 35 çıkarılırsa geriye ne kalır?",
+        "answer": "120 sayısından 35 çıktığında sonuç 85 olur. Cevap: #### 85"
+    },
+    {
+        "question": "Cebimde 17 lira vardı, babam 100 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "17 ve 100 toplandığında 117 yapar. Cevap: #### 117"
+    },
+    {
+        "question": "99 ile 39 arasındaki fark nedir?",
+        "answer": "99 sayısından 39 çıktığında sonuç 60 olur. Cevap: #### 60"
+    },
+    {
+        "question": "Cebimde 10 lira vardı, babam 58 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "10 ve 58 toplandığında 68 yapar. Cevap: #### 68"
+    },
+    {
+        "question": "9 sayısının 6 katı kaçtır?",
+        "answer": "9 ile 6 çarpılırsa 54 bulunur. Cevap: #### 54"
+    },
+    {
+        "question": "56 sayısına 85 eklersek sonuç ne olur?",
+        "answer": "56 ve 85 toplandığında 141 yapar. Cevap: #### 141"
+    },
+    {
+        "question": "34 ile 38 toplamı kaçtır?",
+        "answer": "34 ve 38 toplandığında 72 yapar. Cevap: #### 72"
+    },
+    {
+        "question": "9 sayısının 7 katı kaçtır?",
+        "answer": "9 ile 7 çarpılırsa 63 bulunur. Cevap: #### 63"
+    },
+    {
+        "question": "51 ile 79 toplamı kaçtır?",
+        "answer": "51 ve 79 toplandığında 130 yapar. Cevap: #### 130"
+    },
+    {
+        "question": "Tanesi 9 lira olan kalemlerden 8 tane alırsam kaç lira öderim?",
+        "answer": "9 ile 8 çarpılırsa 72 bulunur. Cevap: #### 72"
+    },
+    {
+        "question": "Hangi sayıya 45 eklersek sonuç 50 eder?",
+        "answer": "Sonuç 50 ise, 50 sayısından 45 çıkararak bilinmeyeni buluruz. 50 - 45 = 5. Cevap: #### 5"
+    },
+    {
+        "question": "7 sayısının 5 katı kaçtır?",
+        "answer": "7 ile 5 çarpılırsa 35 bulunur. Cevap: #### 35"
+    },
+    {
+        "question": "Tanesi 10 lira olan kalemlerden 4 tane alırsam kaç lira öderim?",
+        "answer": "10 ile 4 çarpılırsa 40 bulunur. Cevap: #### 40"
+    },
+    {
+        "question": "Hangi sayıya 47 eklersek sonuç 54 eder?",
+        "answer": "Sonuç 54 ise, 54 sayısından 47 çıkararak bilinmeyeni buluruz. 54 - 47 = 7. Cevap: #### 7"
+    },
+    {
+        "question": "Tanesi 2 lira olan kalemlerden 2 tane alırsam kaç lira öderim?",
+        "answer": "2 ile 2 çarpılırsa 4 bulunur. Cevap: #### 4"
+    },
+    {
+        "question": "129 ile 16 arasındaki fark nedir?",
+        "answer": "129 sayısından 16 çıktığında sonuç 113 olur. Cevap: #### 113"
+    },
+    {
+        "question": "2 tane 4 toplamı kaçtır?",
+        "answer": "2 ile 4 çarpılırsa 8 bulunur. Cevap: #### 8"
+    },
+    {
+        "question": "Tanesi 9 lira olan kalemlerden 9 tane alırsam kaç lira öderim?",
+        "answer": "9 ile 9 çarpılırsa 81 bulunur. Cevap: #### 81"
+    },
+    {
+        "question": "Hangi sayıya 47 eklersek sonuç 60 eder?",
+        "answer": "Sonuç 60 ise, 60 sayısından 47 çıkararak bilinmeyeni buluruz. 60 - 47 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "Hangi sayıya 33 eklersek sonuç 51 eder?",
+        "answer": "Sonuç 51 ise, 51 sayısından 33 çıkararak bilinmeyeni buluruz. 51 - 33 = 18. Cevap: #### 18"
+    },
+    {
+        "question": "10 tane 6 toplamı kaçtır?",
+        "answer": "10 ile 6 çarpılırsa 60 bulunur. Cevap: #### 60"
+    },
+    {
+        "question": "110 ile 34 arasındaki fark nedir?",
+        "answer": "110 sayısından 34 çıktığında sonuç 76 olur. Cevap: #### 76"
+    },
+    {
+        "question": "Tanesi 3 lira olan kalemlerden 6 tane alırsam kaç lira öderim?",
+        "answer": "3 ile 6 çarpılırsa 18 bulunur. Cevap: #### 18"
+    },
+    {
+        "question": "9 sayısının 7 katı kaçtır?",
+        "answer": "9 ile 7 çarpılırsa 63 bulunur. Cevap: #### 63"
+    },
+    {
+        "question": "93 sayısına 27 eklersek sonuç ne olur?",
+        "answer": "93 ve 27 toplandığında 120 yapar. Cevap: #### 120"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 56 eder?",
+        "answer": "Sonuç 56 ise, 56 sayısından 37 çıkararak bilinmeyeni buluruz. 56 - 37 = 19. Cevap: #### 19"
+    },
+    {
+        "question": "43 ile 86 toplamı kaçtır?",
+        "answer": "43 ve 86 toplandığında 129 yapar. Cevap: #### 129"
+    },
+    {
+        "question": "130 ile 20 arasındaki fark nedir?",
+        "answer": "130 sayısından 20 çıktığında sonuç 110 olur. Cevap: #### 110"
+    },
+    {
+        "question": "Hangi sayıya 35 eklersek sonuç 63 eder?",
+        "answer": "Sonuç 63 ise, 63 sayısından 35 çıkararak bilinmeyeni buluruz. 63 - 35 = 28. Cevap: #### 28"
+    },
+    {
+        "question": "68 ile 19 arasındaki fark nedir?",
+        "answer": "68 sayısından 19 çıktığında sonuç 49 olur. Cevap: #### 49"
+    },
+    {
+        "question": "4 tane 8 toplamı kaçtır?",
+        "answer": "4 ile 8 çarpılırsa 32 bulunur. Cevap: #### 32"
+    },
+    {
+        "question": "80 sayfalık kitabın 45 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "110 sayısından 45 çıktığında sonuç 65 olur. Cevap: #### 65"
+    },
+    {
+        "question": "Cebimde 30 lira vardı, babam 15 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "30 ve 15 toplandığında 45 yapar. Cevap: #### 45"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 45 eder?",
+        "answer": "Sonuç 45 ise, 45 sayısından 37 çıkararak bilinmeyeni buluruz. 45 - 37 = 8. Cevap: #### 8"
+    },
+    {
+        "question": "67 ile 7 arasındaki fark nedir?",
+        "answer": "67 sayısından 7 çıktığında sonuç 60 olur. Cevap: #### 60"
+    },
+    {
+        "question": "Hangi sayıya 15 eklersek sonuç 33 eder?",
+        "answer": "Sonuç 33 ise, 33 sayısından 15 çıkararak bilinmeyeni buluruz. 33 - 15 = 18. Cevap: #### 18"
+    },
+    {
+        "question": "80 sayfalık kitabın 31 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "125 sayısından 31 çıktığında sonuç 94 olur. Cevap: #### 94"
+    },
+    {
+        "question": "Cebimde 12 lira vardı, babam 72 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "12 ve 72 toplandığında 84 yapar. Cevap: #### 84"
+    },
+    {
+        "question": "2 tane 2 toplamı kaçtır?",
+        "answer": "2 ile 2 çarpılırsa 4 bulunur. Cevap: #### 4"
+    },
+    {
+        "question": "5 sayısının 2 katı kaçtır?",
+        "answer": "5 ile 2 çarpılırsa 10 bulunur. Cevap: #### 10"
+    },
+    {
+        "question": "27 sayısına 92 eklersek sonuç ne olur?",
+        "answer": "27 ve 92 toplandığında 119 yapar. Cevap: #### 119"
+    },
+    {
+        "question": "Tanesi 3 lira olan kalemlerden 2 tane alırsam kaç lira öderim?",
+        "answer": "3 ile 2 çarpılırsa 6 bulunur. Cevap: #### 6"
+    },
+    {
+        "question": "Hangi sayıya 29 eklersek sonuç 42 eder?",
+        "answer": "Sonuç 42 ise, 42 sayısından 29 çıkararak bilinmeyeni buluruz. 42 - 29 = 13. Cevap: #### 13"
+    },
+    {
+        "question": "Hangi sayıya 18 eklersek sonuç 47 eder?",
+        "answer": "Sonuç 47 ise, 47 sayısından 18 çıkararak bilinmeyeni buluruz. 47 - 18 = 29. Cevap: #### 29"
+    },
+    {
+        "question": "84 sayısından 38 çıkarılırsa geriye ne kalır?",
+        "answer": "84 sayısından 38 çıktığında sonuç 46 olur. Cevap: #### 46"
+    },
+    {
+        "question": "86 sayısından 37 çıkarılırsa geriye ne kalır?",
+        "answer": "86 sayısından 37 çıktığında sonuç 49 olur. Cevap: #### 49"
+    },
+    {
+        "question": "91 sayısına 47 eklersek sonuç ne olur?",
+        "answer": "91 ve 47 toplandığında 138 yapar. Cevap: #### 138"
+    },
+    {
+        "question": "68 sayısından 33 çıkarılırsa geriye ne kalır?",
+        "answer": "68 sayısından 33 çıktığında sonuç 35 olur. Cevap: #### 35"
+    },
+    {
+        "question": "80 sayfalık kitabın 16 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "125 sayısından 16 çıktığında sonuç 109 olur. Cevap: #### 109"
+    },
+    {
+        "question": "Hangi sayıya 22 eklersek sonuç 47 eder?",
+        "answer": "Sonuç 47 ise, 47 sayısından 22 çıkararak bilinmeyeni buluruz. 47 - 22 = 25. Cevap: #### 25"
+    },
+    {
+        "question": "4 sayısının 12 katı kaçtır?",
+        "answer": "4 ile 12 çarpılırsa 48 bulunur. Cevap: #### 48"
+    },
+    {
+        "question": "Tanesi 4 lira olan kalemlerden 2 tane alırsam kaç lira öderim?",
+        "answer": "4 ile 2 çarpılırsa 8 bulunur. Cevap: #### 8"
+    },
+    {
+        "question": "Hangi sayıya 21 eklersek sonuç 44 eder?",
+        "answer": "Sonuç 44 ise, 44 sayısından 21 çıkararak bilinmeyeni buluruz. 44 - 21 = 23. Cevap: #### 23"
+    },
+    {
+        "question": "47 sayısına 32 eklersek sonuç ne olur?",
+        "answer": "47 ve 32 toplandığında 79 yapar. Cevap: #### 79"
+    },
+    {
+        "question": "3 tane 5 toplamı kaçtır?",
+        "answer": "3 ile 5 çarpılırsa 15 bulunur. Cevap: #### 15"
+    },
+    {
+        "question": "Hangi sayıya 23 eklersek sonuç 48 eder?",
+        "answer": "Sonuç 48 ise, 48 sayısından 23 çıkararak bilinmeyeni buluruz. 48 - 23 = 25. Cevap: #### 25"
+    },
+    {
+        "question": "110 sayısından 6 çıkarılırsa geriye ne kalır?",
+        "answer": "110 sayısından 6 çıktığında sonuç 104 olur. Cevap: #### 104"
+    },
+    {
+        "question": "Tanesi 8 lira olan kalemlerden 7 tane alırsam kaç lira öderim?",
+        "answer": "8 ile 7 çarpılırsa 56 bulunur. Cevap: #### 56"
+    },
+    {
+        "question": "80 sayfalık kitabın 38 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "127 sayısından 38 çıktığında sonuç 89 olur. Cevap: #### 89"
+    },
+    {
+        "question": "10 tane 9 toplamı kaçtır?",
+        "answer": "10 ile 9 çarpılırsa 90 bulunur. Cevap: #### 90"
+    },
+    {
+        "question": "92 sayısından 20 çıkarılırsa geriye ne kalır?",
+        "answer": "92 sayısından 20 çıktığında sonuç 72 olur. Cevap: #### 72"
+    },
+    {
+        "question": "72 sayısından 6 çıkarılırsa geriye ne kalır?",
+        "answer": "72 sayısından 6 çıktığında sonuç 66 olur. Cevap: #### 66"
+    },
+    {
+        "question": "31 sayısına 12 eklersek sonuç ne olur?",
+        "answer": "31 ve 12 toplandığında 43 yapar. Cevap: #### 43"
+    },
+    {
+        "question": "Hangi sayıya 29 eklersek sonuç 48 eder?",
+        "answer": "Sonuç 48 ise, 48 sayısından 29 çıkararak bilinmeyeni buluruz. 48 - 29 = 19. Cevap: #### 19"
+    },
+    {
+        "question": "80 sayfalık kitabın 9 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "84 sayısından 9 çıktığında sonuç 75 olur. Cevap: #### 75"
+    },
+    {
+        "question": "116 ile 45 arasındaki fark nedir?",
+        "answer": "116 sayısından 45 çıktığında sonuç 71 olur. Cevap: #### 71"
+    },
+    {
+        "question": "132 ile 45 arasındaki fark nedir?",
+        "answer": "132 sayısından 45 çıktığında sonuç 87 olur. Cevap: #### 87"
+    },
+    {
+        "question": "Hangi sayıya 23 eklersek sonuç 43 eder?",
+        "answer": "Sonuç 43 ise, 43 sayısından 23 çıkararak bilinmeyeni buluruz. 43 - 23 = 20. Cevap: #### 20"
+    },
+    {
+        "question": "31 ile 25 toplamı kaçtır?",
+        "answer": "31 ve 25 toplandığında 56 yapar. Cevap: #### 56"
+    },
+    {
+        "question": "Hangi sayıya 23 eklersek sonuç 38 eder?",
+        "answer": "Sonuç 38 ise, 38 sayısından 23 çıkararak bilinmeyeni buluruz. 38 - 23 = 15. Cevap: #### 15"
+    },
+    {
+        "question": "3 tane 4 toplamı kaçtır?",
+        "answer": "3 ile 4 çarpılırsa 12 bulunur. Cevap: #### 12"
+    },
+    {
+        "question": "5 sayısının 12 katı kaçtır?",
+        "answer": "5 ile 12 çarpılırsa 60 bulunur. Cevap: #### 60"
+    },
+    {
+        "question": "2 tane 11 toplamı kaçtır?",
+        "answer": "2 ile 11 çarpılırsa 22 bulunur. Cevap: #### 22"
+    },
+    {
+        "question": "Tanesi 7 lira olan kalemlerden 4 tane alırsam kaç lira öderim?",
+        "answer": "7 ile 4 çarpılırsa 28 bulunur. Cevap: #### 28"
+    },
+    {
+        "question": "Cebimde 51 lira vardı, babam 38 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "51 ve 38 toplandığında 89 yapar. Cevap: #### 89"
+    },
+    {
+        "question": "142 sayısından 7 çıkarılırsa geriye ne kalır?",
+        "answer": "142 sayısından 7 çıktığında sonuç 135 olur. Cevap: #### 135"
+    },
+    {
+        "question": "7 tane 8 toplamı kaçtır?",
+        "answer": "7 ile 8 çarpılırsa 56 bulunur. Cevap: #### 56"
+    },
+    {
+        "question": "16 sayısına 70 eklersek sonuç ne olur?",
+        "answer": "16 ve 70 toplandığında 86 yapar. Cevap: #### 86"
+    },
+    {
+        "question": "89 sayısına 76 eklersek sonuç ne olur?",
+        "answer": "89 ve 76 toplandığında 165 yapar. Cevap: #### 165"
+    },
+    {
+        "question": "10 sayısının 9 katı kaçtır?",
+        "answer": "10 ile 9 çarpılırsa 90 bulunur. Cevap: #### 90"
+    },
+    {
+        "question": "3 sayısının 8 katı kaçtır?",
+        "answer": "3 ile 8 çarpılırsa 24 bulunur. Cevap: #### 24"
+    },
+    {
+        "question": "80 sayfalık kitabın 31 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "94 sayısından 31 çıktığında sonuç 63 olur. Cevap: #### 63"
+    },
+    {
+        "question": "63 sayısına 80 eklersek sonuç ne olur?",
+        "answer": "63 ve 80 toplandığında 143 yapar. Cevap: #### 143"
+    },
+    {
+        "question": "4 tane 5 toplamı kaçtır?",
+        "answer": "4 ile 5 çarpılırsa 20 bulunur. Cevap: #### 20"
+    },
+    {
+        "question": "12 sayısına 52 eklersek sonuç ne olur?",
+        "answer": "12 ve 52 toplandığında 64 yapar. Cevap: #### 64"
+    },
+    {
+        "question": "80 sayfalık kitabın 22 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "84 sayısından 22 çıktığında sonuç 62 olur. Cevap: #### 62"
+    },
+    {
+        "question": "6 sayısına 48 eklersek sonuç ne olur?",
+        "answer": "6 ve 48 toplandığında 54 yapar. Cevap: #### 54"
+    },
+    {
+        "question": "80 sayfalık kitabın 4 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "62 sayısından 4 çıktığında sonuç 58 olur. Cevap: #### 58"
+    },
+    {
+        "question": "Hangi sayıya 44 eklersek sonuç 70 eder?",
+        "answer": "Sonuç 70 ise, 70 sayısından 44 çıkararak bilinmeyeni buluruz. 70 - 44 = 26. Cevap: #### 26"
+    },
+    {
+        "question": "2 sayısının 8 katı kaçtır?",
+        "answer": "2 ile 8 çarpılırsa 16 bulunur. Cevap: #### 16"
+    },
+    {
+        "question": "81 sayısından 40 çıkarılırsa geriye ne kalır?",
+        "answer": "81 sayısından 40 çıktığında sonuç 41 olur. Cevap: #### 41"
+    },
+    {
+        "question": "Hangi sayıya 12 eklersek sonuç 18 eder?",
+        "answer": "Sonuç 18 ise, 18 sayısından 12 çıkararak bilinmeyeni buluruz. 18 - 12 = 6. Cevap: #### 6"
+    },
+    {
+        "question": "5 sayısının 2 katı kaçtır?",
+        "answer": "5 ile 2 çarpılırsa 10 bulunur. Cevap: #### 10"
+    },
+    {
+        "question": "3 tane 12 toplamı kaçtır?",
+        "answer": "3 ile 12 çarpılırsa 36 bulunur. Cevap: #### 36"
+    },
+    {
+        "question": "10 sayısının 12 katı kaçtır?",
+        "answer": "10 ile 12 çarpılırsa 120 bulunur. Cevap: #### 120"
+    },
+    {
+        "question": "34 ile 24 toplamı kaçtır?",
+        "answer": "34 ve 24 toplandığında 58 yapar. Cevap: #### 58"
+    },
+    {
+        "question": "80 sayfalık kitabın 6 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "56 sayısından 6 çıktığında sonuç 50 olur. Cevap: #### 50"
+    },
+    {
+        "question": "20 ile 84 toplamı kaçtır?",
+        "answer": "20 ve 84 toplandığında 104 yapar. Cevap: #### 104"
+    },
+    {
+        "question": "6 tane 4 toplamı kaçtır?",
+        "answer": "6 ile 4 çarpılırsa 24 bulunur. Cevap: #### 24"
+    },
+    {
+        "question": "Hangi sayıya 30 eklersek sonuç 49 eder?",
+        "answer": "Sonuç 49 ise, 49 sayısından 30 çıkararak bilinmeyeni buluruz. 49 - 30 = 19. Cevap: #### 19"
+    },
+    {
+        "question": "105 sayısından 26 çıkarılırsa geriye ne kalır?",
+        "answer": "105 sayısından 26 çıktığında sonuç 79 olur. Cevap: #### 79"
+    },
+    {
+        "question": "127 sayısından 43 çıkarılırsa geriye ne kalır?",
+        "answer": "127 sayısından 43 çıktığında sonuç 84 olur. Cevap: #### 84"
+    },
+    {
+        "question": "132 ile 10 arasındaki fark nedir?",
+        "answer": "132 sayısından 10 çıktığında sonuç 122 olur. Cevap: #### 122"
+    },
+    {
+        "question": "Hangi sayıya 26 eklersek sonuç 43 eder?",
+        "answer": "Sonuç 43 ise, 43 sayısından 26 çıkararak bilinmeyeni buluruz. 43 - 26 = 17. Cevap: #### 17"
+    },
+    {
+        "question": "150 sayısından 32 çıkarılırsa geriye ne kalır?",
+        "answer": "150 sayısından 32 çıktığında sonuç 118 olur. Cevap: #### 118"
+    },
+    {
+        "question": "80 sayfalık kitabın 22 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "145 sayısından 22 çıktığında sonuç 123 olur. Cevap: #### 123"
+    },
+    {
+        "question": "80 sayısından 10 çıkarılırsa geriye ne kalır?",
+        "answer": "80 sayısından 10 çıktığında sonuç 70 olur. Cevap: #### 70"
+    },
+    {
+        "question": "Hangi sayıya 29 eklersek sonuç 49 eder?",
+        "answer": "Sonuç 49 ise, 49 sayısından 29 çıkararak bilinmeyeni buluruz. 49 - 29 = 20. Cevap: #### 20"
+    },
+    {
+        "question": "9 sayısına 43 eklersek sonuç ne olur?",
+        "answer": "9 ve 43 toplandığında 52 yapar. Cevap: #### 52"
+    },
+    {
+        "question": "Hangi sayıya 12 eklersek sonuç 18 eder?",
+        "answer": "Sonuç 18 ise, 18 sayısından 12 çıkararak bilinmeyeni buluruz. 18 - 12 = 6. Cevap: #### 6"
+    },
+    {
+        "question": "Cebimde 8 lira vardı, babam 60 lira daha verdi. Toplam kaç liram oldu?",
+        "answer": "8 ve 60 toplandığında 68 yapar. Cevap: #### 68"
+    },
+    {
+        "question": "Hangi sayıya 37 eklersek sonuç 45 eder?",
+        "answer": "Sonuç 45 ise, 45 sayısından 37 çıkararak bilinmeyeni buluruz. 45 - 37 = 8. Cevap: #### 8"
+    },
+    {
+        "question": "Hangi sayıya 13 eklersek sonuç 43 eder?",
+        "answer": "Sonuç 43 ise, 43 sayısından 13 çıkararak bilinmeyeni buluruz. 43 - 13 = 30. Cevap: #### 30"
+    },
+    {
+        "question": "114 sayısından 32 çıkarılırsa geriye ne kalır?",
+        "answer": "114 sayısından 32 çıktığında sonuç 82 olur. Cevap: #### 82"
+    },
+    {
+        "question": "80 sayfalık kitabın 14 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "74 sayısından 14 çıktığında sonuç 60 olur. Cevap: #### 60"
+    },
+    {
+        "question": "6 tane 2 toplamı kaçtır?",
+        "answer": "6 ile 2 çarpılırsa 12 bulunur. Cevap: #### 12"
+    },
+    {
+        "question": "Tanesi 5 lira olan kalemlerden 8 tane alırsam kaç lira öderim?",
+        "answer": "5 ile 8 çarpılırsa 40 bulunur. Cevap: #### 40"
+    },
+    {
+        "question": "6 tane 4 toplamı kaçtır?",
+        "answer": "6 ile 4 çarpılırsa 24 bulunur. Cevap: #### 24"
+    },
+    {
+        "question": "Hangi sayıya 38 eklersek sonuç 60 eder?",
+        "answer": "Sonuç 60 ise, 60 sayısından 38 çıkararak bilinmeyeni buluruz. 60 - 38 = 22. Cevap: #### 22"
+    },
+    {
+        "question": "61 sayısından 18 çıkarılırsa geriye ne kalır?",
+        "answer": "61 sayısından 18 çıktığında sonuç 43 olur. Cevap: #### 43"
+    },
+    {
+        "question": "7 ile 37 toplamı kaçtır?",
+        "answer": "7 ve 37 toplandığında 44 yapar. Cevap: #### 44"
+    },
+    {
+        "question": "2 sayısının 11 katı kaçtır?",
+        "answer": "2 ile 11 çarpılırsa 22 bulunur. Cevap: #### 22"
+    },
+    {
+        "question": "Hangi sayıya 16 eklersek sonuç 26 eder?",
+        "answer": "Sonuç 26 ise, 26 sayısından 16 çıkararak bilinmeyeni buluruz. 26 - 16 = 10. Cevap: #### 10"
+    },
+    {
+        "question": "80 sayfalık kitabın 2 sayfasını okudum, okunacak kaç sayfa kaldı?",
+        "answer": "67 sayısından 2 çıktığında sonuç 65 olur. Cevap: #### 65"
+    },
+    {
+        "question": "10 sayısının 2 katı kaçtır?",
+        "answer": "10 ile 2 çarpılırsa 20 bulunur. Cevap: #### 20"
+    }
+]
