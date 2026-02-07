@@ -2,6 +2,7 @@ import torch
 from transformers import GPT2LMHeadModel, AutoTokenizer, GPT2Config
 from pathlib import Path
 
+
 def unwrap_compiled_checkpoint(input_path, output_path):
     """
     Unwrap a torch.compile() checkpoint and save it properly.
@@ -72,48 +73,96 @@ def unwrap_compiled_checkpoint(input_path, output_path):
     print("✓ Done! Model unwrapped and saved successfully.")
     return model, tokenizer
 
-if __name__ == "__main__":
-    # Unwrap the model
-    input_checkpoint = r"c:\Users\pc\Downloads\checkpoint-2000"
-    output_checkpoint = r"C:\Users\pc\OneDrive - Yildiz Technical University\Desktop\Cosmos\checkpoint2_unwrapped"
-    
-    model, tokenizer = unwrap_compiled_checkpoint(input_checkpoint, output_checkpoint)
-    
+
+def test_unwrapped_model(model_path, prompt="Bir matematik problemi:"):
+    """
+    Load and test the unwrapped model.
+    """
     print("\n" + "="*60)
     print("Testing the unwrapped model...")
     print("="*60)
     
+    # Load the unwrapped model
+    model = GPT2LMHeadModel.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    tokenizer.pad_token = tokenizer.eos_token
+    
+    # Check if it loaded properly
+    print(f"\nModel loaded successfully!")
+    print(f"lm_head weight shape: {model.lm_head.weight.shape}")
+    print(f"wte weight shape: {model.transformer.wte.weight.shape}")
+    print(f"Weights are tied: {model.lm_head.weight.data_ptr() == model.transformer.wte.weight.data_ptr()}")
+    
     # Test generation
     model.eval()
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Using device: {device}")
+    print(f"\nUsing device: {device}")
     model.to(device)
-    
-    # Set pad token
-    tokenizer.pad_token = tokenizer.eos_token
-    
-    # Test with a prompt
-    prompt = "Bir matematik problemi:"
-    print(f"\nPrompt: {prompt}")
     
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_length=100,
-            do_sample=True,
-            temperature=0.8,
-            top_p=0.95,
-            repetition_penalty=1.2,
-            no_repeat_ngram_size=3,
-            pad_token_id=tokenizer.eos_token_id,
-            eos_token_id=tokenizer.eos_token_id,
-        )
+    outputs = model.generate(
+        **inputs,
+        max_length=100,
+        do_sample=True,
+        temperature=0.8,
+        top_p=0.95,
+        repetition_penalty=1.2,
+        no_repeat_ngram_size=3,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+    
+    result = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    print("\n" + "="*60)
+    print("Generated text:")
+    print("="*60)
+    print(result)
+    print("="*60)
+    
+    return model, tokenizer
+
+
+def main():
+    """
+    Main function to unwrap checkpoint and test model.
+    """
+    # Configuration
+    input_checkpoint = "./agressive_token/final_model"
+    output_checkpoint = "./agressive-token-unwrapped"
+    
+    # Unwrap the checkpoint
+    model, tokenizer = unwrap_compiled_checkpoint(input_checkpoint, output_checkpoint)
+    
+    # Test the unwrapped model
+    print("\n" + "="*60)
+    print("Testing immediately after unwrapping...")
+    print("="*60)
+    
+    model.eval()
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.to(device)
+    
+    prompt = "Bir matematik problemi:"
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    
+    outputs = model.generate(
+        **inputs,
+        max_length=100,
+        do_sample=True,
+        temperature=0.8,
+        top_p=0.95,
+        repetition_penalty=1.2,
+        no_repeat_ngram_size=3,
+        pad_token_id=tokenizer.eos_token_id,
+    )
     
     result = tokenizer.decode(outputs[0], skip_special_tokens=True)
     print(f"\nGenerated text:\n{result}")
     print("\n" + "="*60)
-    print("✓ Unwrapping complete! Your model is ready to use.")
-    print(f"✓ Upload '{output_checkpoint}' to Kaggle as a dataset.")
-    print("="*60)
+    
+    # Test by reloading from disk
+    test_unwrapped_model(output_checkpoint, prompt="Matematik:")
+
+
+if __name__ == "__main__":
+    main()
